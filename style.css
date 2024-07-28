@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/image/planets-solar-system_23-2150042471.avif);
+  background-repeat: no-repeat;
+  background-color: aqua;
+  background-size: cover;
+  padding-top: 40px;
+  color: white;
+}
+
+.mood{
+    background-color: rgba(0, 0, 0, 0.233);
+    margin: 20px 30px;
+    float: right;
+    height: 50px;
+    width: 50px;
+    color: white;
+    text-align: center;
+   padding-top: 12px;
+   font-size: 30px;
+   backdrop-filter: blur(10px);
+}
+
+.form {
+  width: 35%;
+  margin: auto;
+  height: 530px;
+  background-color: rgba(0, 0, 0, 0.116);
+  /* backdrop-filter: blur(10px); */
+  border-radius: 20px;
+  padding: 20px 50px;
+}
+
+.head {
+  color: white;
+}
+
+.text1 {
+  font-size: 35px;
+  margin-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.text2 {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin-top: 12px;
+  letter-spacing: 1.5px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+
+
+.email input {
+  padding: 15px 10px;
+  padding-right: 220px;
+  background-color: rgba(0, 0, 0, 0.116);
+  backdrop-filter: blur(10px);
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 12px;
+}
+
+.email input::placeholder{
+    color: white;
+}
+
+.pass{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.password input{
+    padding: 15px 10px;
+    padding-right: 180px;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(10px);
+    outline: none;
+    border: 1px solid gray;
+    border-right: none;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.password input::placeholder{
+    color: white;
+}
+
+.text3{
+    outline: none;
+    border: 1px solid gray;
+    background-color: rgba(0, 0, 0, 0.116);
+    backdrop-filter: blur(10px);
+    color: rgba(255, 255, 255, 0.336);
+    width: 200px;
+    height: 48px;
+    border-left: none;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.text4{
+    color: white;
+    font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 12px 0px;
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    background-color: rgb(35, 132, 170);
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.divide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.small{
+    height: 2px;
+    width: 45%;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+.text5{
+    color: white;
+    font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.bnt{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    outline: none;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.fa-apple{
+    font-size: 25px;
+}

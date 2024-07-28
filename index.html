@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>plant form</title>
+  </head>
+  <body>
+    <div class="main" id="main">
+        <div class="mood" id="ball" onclick="toggleDarkMode()">
+            <i class="fas fa-moon" id="icon"></i>
+        </div>
+      <form action="" method="post" class="form">
+        <div class="head">
+          <h1 class="text1">Sign In</h1>
+          <p class="text2">Keep it all togehter you'll be fine</p>
+        </div>
+        <div class="input">
+            <label for="" class="email">
+                <input type="email" placeholder="Email or Phone" required />
+              </label>
+              <div class="pass">
+                <label for="" class="password">
+                    <input type="password" placeholder="password" required>
+                  </label>
+                  <p class="text3">show</p>
+              </div>
+        </div>
+        <p class="text4">Forget password</p>
+        <button class="btn">Sign In</button>
+        <div class="divide">
+            <div class="small"></div>
+            <p class="text5">OR</p>
+            <div class="small"></div>
+        </div>
+        <button class="bnt"><i class="fa-brands fa-apple"></i>
+        <p>Sign in with apple</p></button>
+      </form>
+    </div>
+
+
+    <script src="/scipt.js"></script>
+  </body>
+</html>
